@@ -110,7 +110,7 @@ for i in testingList:
 
     print("\n第",count,"筆資料和notStressed_data的距離: ", (x+y)**(1/2) )
     print("第",count,"筆資料和Stressed_data的距離: ", (xx+yy)**(1/2))
-    if (x+y)**(1/2) >= (xx+yy)**(1/2):
+    if (x+y)**(1/2) <= (xx+yy)**(1/2):
         print("第",count,"筆資料屬於notStressed_data")
     else:
         print("第",count,"筆資料屬於Stressed_data")
